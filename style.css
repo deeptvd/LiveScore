@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background: #fff;
+    font-size: 1em;
+}
+
+header, article, footer {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    margin: 50px 0;
+    color: #333;
+}
+
+#maincontent{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    width:550px;
+    height: 450px;
+    margin-top: 40px;
+
+}
+
+#status-label {
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 10px 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+}
+#stadium-label, #format-label {
+    display: block;
+    float: left;
+    width: 100%;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+}
+#text-view {
+    float: left;
+    width: 80%;
+    padding: 7px 8px;
+}
+
+#send-button{
+    width: 20em;
+    height: 3em;
+    border: none;
+    color: white;
+    background-color: green;
+}
+
+#stop-button{
+    width: 20em;
+    height: 3em;
+    border: none;
+    color: white;
+    background-color: red;
+}
